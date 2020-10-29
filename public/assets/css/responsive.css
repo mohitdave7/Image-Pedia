@@ -1,0 +1,104 @@
+                @media(max-width:1920px) {
+                   
+                }
+                @media(max-width:1366px) {
+                   
+                }
+               
+               @media(max-width:1200px) {
+                  
+                }
+                
+                @media(max-width:1024px) {
+                   
+                }
+                
+                @media(max-width:1199px) and (min-width:992px) {
+                   
+                }
+                
+                @media(max-width:991px) {
+                   
+                }
+                
+                @media(max-width:990px) and (min-width:768px) {
+                  
+                }
+                
+                @media(max-width:767px) {
+                 /* manu start */
+                    .menu-links {
+                        position: fixed!important;
+                        flex: 0 0 100%!important;
+                        max-width: 100%;
+                        left: 0;
+                        background-color: #00ffb8;
+                        top: 47px;
+
+                        padding: 15px 15px;
+                        max-width: 100%!important;
+                        border-top: 1px solid #8080803b;
+                        transition: 0.3s;
+                        transform: translate(-100%);
+                    }
+                    .links ul {
+                        margin: 0px 0 0 0;
+                    }
+                    .header-menu .col-sm-3 {
+                        flex: 0 0 50%!important;
+                        max-width: 50%!important;
+                    }
+                    .toggle-top {
+                        display: block;
+                    }
+                 /* manu start end */
+
+                   
+                }
+                
+                @media(max-width:766px) {
+                 
+                }
+                
+                @media(max-width:574px) {
+                  /* manu css start */
+                    .links ul {
+                        display: grid;
+                    }
+                    .links ul {
+                        flex-wrap: wrap;
+                        display: block;
+                    }
+                    .links ul li {
+                        display: block;
+                        width: 100%;
+                        padding: 10px 0;
+                    }
+                    .menu-links {
+                        height: 100%;
+                        min-height: 100%!important;
+                        max-width: 320px!important;
+                    }
+                
+                    .header-menu .col-sm-3 {
+                        flex: 0 0 100%!important;
+                        max-width: 100%!important;
+                    }
+                    .top-menu-bar {
+                        justify-content: space-between;
+                    }
+                    .menu-links {
+                        max-width: 100%!important;
+                    }
+                      /* manu css start */
+
+                  
+                }
+                
+                @media(max-width:414px) {
+                  
+                }
+                
+                @media(max-width:375px) {
+                 
+                }

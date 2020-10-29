@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url("../fonts/Poppins-Regular.ttf"), url("../fonts/Poppins-Regular.woff"), url("../fonts/Poppins-Regular.otf"), url("../Poppins-Regular.eot");
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../fonts/Poppins-Light.ttf"), url("../fonts/Poppins-Light.woff"), url("../fonts/Poppins-Light.otf"), url("../fonts/Poppins-Light.eot");
+}
+
+@font-face {
+    font-family: "Poppins-ExtraLight";
+    src: url("../fonts/Poppins-ExtraLight.ttf"), url("../fonts/Poppins-ExtraLight.woff"), url("../fonts/Poppins-ExtraLight.otf"), url("../fonts/Poppins-ExtraLight.eot");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../fonts/Poppins-Medium.ttf"), url("../fonts/Poppins-Medium.woff"), url("../fonts/Poppins-Medium.otf"), url("../fonts/Poppins-Medium.eot");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../fonts/Poppins-SemiBold.ttf"), url("../fonts/Poppins-SemiBold.woff"), url("../fonts/Poppins-SemiBold.otf"), url("../fonts/Poppins-SemiBold.eot");
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../fonts/Poppins-Bold.ttf"), url("../fonts/Poppins-Bold.woff"), url("../fonts/Poppins-Bold.otf"), url("../fonts/Poppins-Bold.eot");
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-family: "Poppins-Bold"!important;
+}
+
+h3 {
+    font-family: "Poppins-SemiBold"!important;
+}
+
+h4 {
+    font-family: "Poppins-Medium"!important;
+}
+
+body {
+    font-family: 'Poppins-Regular'!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header-css start */
+
+.head-mr {
+    padding-top: 46px;
+}
+
+header {
+    background-color: #00ffb8;
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+  .theme-btn .btn {
+      background: #ffffff;
+      border: 2px solid #2C4BFF;
+      font-family: "Poppins-SemiBold";
+      color: #2C4BFF;
+      font-size: 16px;
+      min-width: 161px;
+      padding: 9px 15px 10px 15px;
+  }
+
+
+
+
+
+
+
+/* toggle css start  */
+
+
+
+
+.main-tog {
+    display: flex;
+    align-items: center;
+}
+
+.main-tog .toggle-top {
+    margin: 6px 0px 0 20px;
+    display: none;
+}
+
+.service-table {
+    overflow: auto;
+}
+
+.toggle-top {
+    margin: 0 0 0 20px;
+    display: none;
+}
+
+.side-slide {
+    transform: translate(0%)!important;
+}
+.header-scrolled {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* toggle css end */
+/* header-css end */
+
+.search-box.filter {
+    max-width: 696px;
+    display: flex;
+    margin: 0 auto;
+}
+.search-box {
+    margin-bottom: 20px;
+}
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    background-color: #ffffff;
+    border-radius: 0px;
+    border: 1px solid #ccccd2;
+    height: 44px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Poppins-Medium";
+    color: #000000;
+    padding: 0 40px;
+}
+
+.search-box .fa-search {
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    color: #787878;
+}
+.search-box.filter .theme-btn {
+  border-radius: 0px;
+}
+
+.theme-btn .btn {
+    background: #3E2BBB;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 14px;
+    min-width: 136px;
+    padding: 9px 15px 10px 15px;
+    font-family: "Poppins-Medium";
+}
+
+
+.images{
+    margin-top: 50px;
+}
+
+.image-box .box-in{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccccd25c;
+    padding: 20px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image-box .box-in .img-sec{
+    width: 100%;
+
+}
+.image-box .box-in .img-sec img{
+    height: 200px;
+    width: 100%;
+}
+
+.image-box .box-in .con-sec{
+    width: 70%;
+    padding-left: 20px;
+
+}
+
+.image-box .box-in .con-sec p{
+
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.image-box .box-in .con-sec h3{
+    font-size: 24px;
+}
+
+.fa-cross {
+    /* width: 22px;
+    height: 22px;
+    background: #fff;
+    box-shadow: 0px 2px 12px #8B8B8B14;
+    border: 0.5px solid #0000001A;
+    border-radius: 50%; */
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    line-height: 17px;
+    cursor: pointer;
+}
+.fa-cross .fa {
+    font-size: 18px;
+    color: #838181;
+}
+.image-box{
+    margin-top: 20px;
+}
+
+.fa-cross .fa.active{
+    color: #00ffb8;
+
+}
+
+.images{
+    max-width: 1366px;
+    margin: 50px auto 50px auto;
+}
